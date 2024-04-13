@@ -1,0 +1,159 @@
+<Logo_card>:
+    orientation:'horizontal'
+    FloatLayout:
+        MDIcon:
+            icon:"hat-fedora"
+            pos_hint:{"center_x":0.7,"center_y":0.52}
+    MDLabel:
+        text:"[color=#ffffff]White_hats[/color]"
+        markup:True
+        font_style: "Title"
+        role: "medium"
+
+<List_Item>:
+    on_release:app.Dialog_open(root.mail_number)
+    MDListItemLeadingIcon:
+        icon:"mail"
+    MDListItemHeadlineText:
+        text: root.mail_number
+    MDListItemSupportingText:
+        text: root.data_text
+    MDListItemTrailingIcon:
+        icon: "open-in-new"
+
+<Filter_block>:
+    style:"outlined"
+
+<Main_Screen>:
+    FloatLayout:
+        pos_hint:{'center_x':.5, 'center_y':.5}
+        BoxLayout:
+            orientation:'vertical'
+            size_hint:.9,.9
+            pos_hint:{'center_x':.5, 'center_y':.5}
+            BoxLayout:
+                size_hint:1,.7
+                pos_hint:{'center_x':.5, 'center_y':.5}
+                MDScrollView:
+                    MDList:
+                        id: container
+            
+            BoxLayout:
+                size_hint:1,.1
+                pos_hint:{'center_x':.5, 'center_y':.5}
+                Filter_block:
+                    BoxLayout:
+                        orientation:'horizontal'
+                        Filter_block:
+                            BoxLayout:
+                                orientation:'vertical'
+                                MDLabel:
+                                    text:"Аккаунт"
+                                    halign:"center"
+                                Filter_block:
+                                    MDCheckbox:
+                                        active: True
+                                        on_active: root.on_checkbox_active(*args, "account")
+                                        size_hint:1,1
+                                        pos_hint:{'center_x':.5, 'center_y':.5}
+                        Filter_block:
+                            BoxLayout:
+                                orientation:'vertical'
+                                MDLabel:
+                                    text:"Карта"
+                                    halign:"center"
+                                Filter_block:
+                                    MDCheckbox:
+                                        active: True
+                                        on_active: root.on_checkbox_active(*args, "card")
+                                        size_hint:1,1
+                                        pos_hint:{'center_x':.5, 'center_y':.5}
+                        Filter_block:
+                            BoxLayout:
+                                orientation:'vertical'
+                                MDLabel:
+                                    text:"Паспорт"
+                                    halign:"center"
+                                Filter_block:
+                                    MDCheckbox:
+                                        active: True
+                                        on_active: root.on_checkbox_active(*args, "passport")
+                                        size_hint:1,1
+                                        pos_hint:{'center_x':.5, 'center_y':.5}
+                        Filter_block:
+                            BoxLayout:
+                                orientation:'vertical'
+                                MDLabel:
+                                    text:"Телефон"
+                                    halign:"center"
+                                Filter_block:
+                                    MDCheckbox:
+                                        active: True
+                                        on_active: root.on_checkbox_active(*args, "phone")
+                                        size_hint:1,1
+                                        pos_hint:{'center_x':.5, 'center_y':.5}
+                        
+                        Filter_block:
+                            BoxLayout:
+                                orientation:'vertical'
+                                MDLabel:
+                                    text:"Снилс"
+                                    halign:"center"
+                                Filter_block:
+                                    MDCheckbox:
+                                        active: True
+                                        on_active: root.on_checkbox_active(*args, "snils")
+                                        size_hint:1,1
+                                        pos_hint:{'center_x':.5, 'center_y':.5}
+                        Filter_block:
+                            BoxLayout:
+                                orientation:'vertical'
+                                MDLabel:
+                                    text:"Qr-код"
+                                    halign:"center"
+                                Filter_block:
+                                    MDCheckbox:
+                                        active: True
+                                        on_active: root.on_checkbox_active(*args, "qr-code")
+                                        size_hint:1,1
+                                        pos_hint:{'center_x':.5, 'center_y':.5}
+                        Filter_block:
+                            BoxLayout:
+                                orientation:'vertical'
+                                MDLabel:
+                                    text:"Конфиденциальных данных не обнаружено"
+                                    halign:"center"
+                                Filter_block:
+                                    MDCheckbox:
+                                        active: True
+                                        on_active: root.on_checkbox_active(*args, "none")
+                                        size_hint:1,1
+                                        pos_hint:{'center_x':.5, 'center_y':.5}
+                        
+                        Filter_block:
+                            BoxLayout:
+                                orientation:'vertical'
+                                MDLabel:
+                                    text:"Количество найденных утечек:"
+                                    halign:"center"
+                                Filter_block:
+                                    MDLabel:
+                                        id:count_mail
+                                        text:"100"
+                                        halign:"center"
+                                        font_style: "Headline"
+                                        role: "small"
+
+                
+            
+    FloatLayout:
+        pos_hint:{'center_x':.03, 'center_y':.97}
+        size_hint: .1,.1
+        Logo_card:
+            pos_hint:{'center_x':.5, 'center_y':.5}
+            size_hint: 1,1
+
+    
+
+
+            
