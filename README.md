@@ -73,17 +73,17 @@ For Linux:
 pip3 install -r requirements.txt
 ```
 <hr>
-Установите необходимые библиотеки с помощью команды:
+Запустите проект с помощью команды:
 <br>
 <br>
 For Windows:
 
 ```
-pip install -r requirements.txt
+py main.py
 ```
 For Linux:
 ```
-pip3 install -r requirements.txt
+python3 main.py
 ```
 
 ## Разработчики
