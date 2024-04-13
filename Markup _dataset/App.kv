@@ -1,0 +1,170 @@
+<Logo_card>:
+    orientation:'horizontal'
+    FloatLayout:
+        MDIcon:
+            icon:"hat-fedora"
+            pos_hint:{"center_x":0.7,"center_y":0.52}
+    MDLabel:
+        text:"[color=#ffffff]White_hats[/color]"
+        markup:True
+        font_style: "Title"
+        role: "medium"
+
+<List_Item>:
+    on_release:app.Dialog_open(root.mail_number)
+    MDListItemLeadingIcon:
+        icon:"mail"
+    MDListItemHeadlineText:
+        text: root.mail_number
+    MDListItemSupportingText:
+        text: root.data_text
+    MDListItemTrailingIcon:
+        icon: "open-in-new"
+
+<Red_block>:
+    style:"outlined"
+
+<Main_Screen>:
+    FloatLayout:
+        pos_hint:{'center_x':.5, 'center_y':.5}
+        BoxLayout:
+            orientation:'vertical'
+            size_hint:.9,.9
+            pos_hint:{'center_x':.5, 'center_y':.5}
+            BoxLayout:
+                size_hint:1,.7
+                pos_hint:{'center_x':.5, 'center_y':.5}
+                MDBoxLayout:
+                    md_bg_color:(.97,.96,.89,1)
+                    BoxLayout:
+                        orientation:'vertical'
+                        FloatLayout:
+                            size_hint:.2,.1
+                            pos_hint:{'center_x':.12, 'center_y':.5}
+                            MDLabel:
+                                id: autor_mail
+                                size_hint:1,1
+                                markup:True
+                                text:"[color=000000]Отправитель: [/color]"
+                                font_size:"22px"
+                                pos_hint:{'center_x':.5, 'center_y':.5}
+                        
+                        FloatLayout:
+                            pos_hint:{'center_x':.5, 'center_y':.5}
+                            MDLabel:
+                                id: mail_text
+                                size_hint:.9,.7
+                                markup:True
+                                text:f"[color=000000][/color]"
+                                font_size:"16px"
+                                pos_hint:{'center_x':.5, 'center_y':.5}
+
+                        
+                        
+            
+            BoxLayout:
+                size_hint:1,.1
+                pos_hint:{'center_x':.5, 'center_y':.5}
+                Red_block:
+                    BoxLayout:
+                        orientation:'vertical'
+                        spacing:20
+                        BoxLayout:
+                            orientation:'horizontal'
+                            spacing:20
+                            size_hint_x:.9
+                            pos_hint:{'center_x':.5, 'center_y':.5}
+                            MDButton:
+                                theme_width: "Custom"
+                                size_hint:1,1
+                                style: "elevated"
+                                theme_bg_color: "Custom"
+                                md_bg_color: 'white'
+                                on_release:
+                                    root.save_eml_as_txt(root.eml_file_path, "account")
+                                MDButtonText:
+                                    text: "Аккаунт"
+                                    pos_hint: {"center_x": .5, "center_y": .5}
+                                    theme_text_color: "Custom"
+                                    text_color: "black"
+                                    
+                            MDButton:
+                                theme_width: "Custom"
+                                size_hint:1,1
+                                style: "elevated"
+                                theme_bg_color: "Custom"
+                                md_bg_color: 'white'
+                                on_release:
+                                    root.save_eml_as_txt(root.eml_file_path, "card")
+                                MDButtonText:
+                                    text: "Карта"
+                                    pos_hint: {"center_x": .5, "center_y": .5}
+                                    theme_text_color: "Custom"
+                                    text_color: "black"  
+                            MDButton:
+                                theme_width: "Custom"
+                                size_hint:1,1
+                                style: "elevated"
+                                theme_bg_color: "Custom"
+                                md_bg_color: 'white'
+                                on_release:
+                                    root.save_eml_as_txt(root.eml_file_path, "passport")
+                                MDButtonText:
+                                    text: "Паспорт"
+                                    pos_hint: {"center_x": .5, "center_y": .5}
+                                    theme_text_color: "Custom"
+                                    text_color: "black"  
+                            MDButton:
+                                theme_width: "Custom"
+                                size_hint:1,1
+                                style: "elevated"
+                                theme_bg_color: "Custom"
+                                md_bg_color: 'white'
+                                on_release:
+                                    root.save_eml_as_txt(root.eml_file_path, "snils")
+                                MDButtonText:
+                                    text: "Снилс"
+                                    pos_hint: {"center_x": .5, "center_y": .5}
+                                    theme_text_color: "Custom"
+                                    text_color: "black"  
+                            MDButton:
+                                theme_width: "Custom"
+                                size_hint:1,1
+                                style: "elevated"
+                                theme_bg_color: "Custom"
+                                md_bg_color: 'white'
+                                on_release:
+                                    root.save_eml_as_txt(root.eml_file_path, "qr")
+                                MDButtonText:
+                                    text: "Qr-код"
+                                    pos_hint: {"center_x": .5, "center_y": .5}
+                                    theme_text_color: "Custom"
+                                    text_color: "black"
+                        FloatLayout: 
+                            MDButton:
+                                theme_width: "Custom"
+                                size_hint:.8,1
+                                style: "elevated"
+                                pos_hint:{'center_x':.5, 'center_y':.5}
+                                theme_bg_color: "Custom"
+                                md_bg_color: 'white'
+                                on_release:
+                                    root.save_eml_as_txt(root.eml_file_path, "nothing")
+                                MDButtonText:
+                                    text: "Конфиденциальных данных не обнаружено"
+                                    pos_hint: {"center_x": .5, "center_y": .5}
+                                    theme_text_color: "Custom"
+                                    text_color: "black"      
+                        
+
+                
+            
+    FloatLayout:
+        pos_hint:{'center_x':.03, 'center_y':.97}
+        size_hint: .1,.1
+        Logo_card:
+            pos_hint:{'center_x':.5, 'center_y':.5}
+            size_hint: 1,1
+
+
+            
