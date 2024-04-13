@@ -88,7 +88,7 @@ python3 main.py
 
 ## Разработчики
 - [Алексей Пахалев](https://github.com/Whynot46) | Project manager/Python Middle developer |
-- Фролкова Дарья | Python Junior developer |
+- [Фролкова Дарья](https://github.com/Dasssada) | Python Junior developer |
 - [Мальцев Никита](https://github.com/Malcev-Nikita) | Fullstack developer/Python Middle developer |
 - [Нурмухамедов Наиль](https://github.com/Tatarenok) | Python Junior developer |
 - [Воронов Александр](https://github.com/Korga-01) | Python Junior developer |
