@@ -48,18 +48,17 @@
                                 text:"[color=000000]Отправитель: [/color]"
                                 font_size:"22px"
                                 pos_hint:{'center_x':.5, 'center_y':.5}
-                        
-                        FloatLayout:
+                        MDScrollView:
+                            size_hint_x:.95
                             pos_hint:{'center_x':.5, 'center_y':.5}
                             MDLabel:
+                                size_hint_y:None
+                                height:self.texture_size[1]
                                 id: mail_text
-                                size_hint:.9,.7
                                 markup:True
                                 text:f"[color=000000][/color]"
                                 font_size:"16px"
                                 pos_hint:{'center_x':.5, 'center_y':.5}
-
-                        
                         
             
             BoxLayout:
@@ -81,7 +80,7 @@
                                 theme_bg_color: "Custom"
                                 md_bg_color: 'white'
                                 on_release:
-                                    root.save_eml_as_txt(root.eml_file_path, "account")
+                                    root.save_eml_as_txt(root.eml_file_path, 1)
                                 MDButtonText:
                                     text: "Аккаунт"
                                     pos_hint: {"center_x": .5, "center_y": .5}
@@ -95,7 +94,7 @@
                                 theme_bg_color: "Custom"
                                 md_bg_color: 'white'
                                 on_release:
-                                    root.save_eml_as_txt(root.eml_file_path, "card")
+                                    root.save_eml_as_txt(root.eml_file_path, 2)
                                 MDButtonText:
                                     text: "Карта"
                                     pos_hint: {"center_x": .5, "center_y": .5}
@@ -108,9 +107,22 @@
                                 theme_bg_color: "Custom"
                                 md_bg_color: 'white'
                                 on_release:
-                                    root.save_eml_as_txt(root.eml_file_path, "passport")
+                                    root.save_eml_as_txt(root.eml_file_path, 3)
                                 MDButtonText:
                                     text: "Паспорт"
+                                    pos_hint: {"center_x": .5, "center_y": .5}
+                                    theme_text_color: "Custom"
+                                    text_color: "black"
+                            MDButton:
+                                theme_width: "Custom"
+                                size_hint:1,1
+                                style: "elevated"
+                                theme_bg_color: "Custom"
+                                md_bg_color: 'white'
+                                on_release:
+                                    root.save_eml_as_txt(root.eml_file_path, 4)
+                                MDButtonText:
+                                    text: "Телефон"
                                     pos_hint: {"center_x": .5, "center_y": .5}
                                     theme_text_color: "Custom"
                                     text_color: "black"  
@@ -121,7 +133,7 @@
                                 theme_bg_color: "Custom"
                                 md_bg_color: 'white'
                                 on_release:
-                                    root.save_eml_as_txt(root.eml_file_path, "snils")
+                                    root.save_eml_as_txt(root.eml_file_path, 5)
                                 MDButtonText:
                                     text: "Снилс"
                                     pos_hint: {"center_x": .5, "center_y": .5}
@@ -134,7 +146,7 @@
                                 theme_bg_color: "Custom"
                                 md_bg_color: 'white'
                                 on_release:
-                                    root.save_eml_as_txt(root.eml_file_path, "qr")
+                                    root.save_eml_as_txt(root.eml_file_path, 6)
                                 MDButtonText:
                                     text: "Qr-код"
                                     pos_hint: {"center_x": .5, "center_y": .5}
@@ -149,12 +161,14 @@
                                 theme_bg_color: "Custom"
                                 md_bg_color: 'white'
                                 on_release:
-                                    root.save_eml_as_txt(root.eml_file_path, "nothing")
+                                    root.save_eml_as_txt(root.eml_file_path, 0)
                                 MDButtonText:
                                     text: "Конфиденциальных данных не обнаружено"
                                     pos_hint: {"center_x": .5, "center_y": .5}
                                     theme_text_color: "Custom"
-                                    text_color: "black"      
+                                    text_color: "black"
+
+
                         
 
                 

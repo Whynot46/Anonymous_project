@@ -26,11 +26,11 @@ class Main_Screen(Screen):
             for part in msg.walk():
                 content_disposition = str(part.get("Content-Disposition"))
                 try:
-                    body = part.get_payload(decode=True).decode()
+                    body = part.get_payload(decode=True).decode('utf-8', 'ignore')
                 except:
                     pass
         else:
-            body = msg.get_payload(decode=True).decode()
+            body = msg.get_payload(decode=True).decode('utf-8', 'ignore')
 
         return re.sub(r"<[^>]+>", "", body, flags=re.S)
 
@@ -40,13 +40,23 @@ class Main_Screen(Screen):
             eml = fp.read()
 
         msg = BytesParser(policy=policy.default).parsebytes(eml)
-        body = msg.get_payload(decode=True).decode()
 
-        with open(f"{self.class_dir[class_id]}_{self.count}.txt", "w") as txt_file:
-            txt_file.write(body)
-        
-        self.count+=1
-        self.on_enter()
+        if msg.is_multipart():
+            for part in msg.walk():
+                content_disposition = str(part.get("Content-Disposition"))
+                try:
+                    body = part.get_payload(decode=True).decode()
+                except:
+                    pass
+        else:
+            body = msg.get_payload(decode=True).decode()
+
+        if body is not None:
+            with open(f"data/{self.class_dir[class_id]}/{self.class_dir[class_id]}_{self.count}.txt", "w") as txt_file:
+                txt_file.write(body)
+            
+            self.count+=1
+            self.on_enter()
 
     # Принимает .eml и возвращает объект отправителя типа string
     def get_sender(self,eml_file_path):
@@ -69,13 +79,21 @@ class Main_Screen(Screen):
 
         return queue.queue
     
+    def check_dir(self):
+        for data_id in self.class_dir:
+            if not os.path.exists(f"data/{self.class_dir[data_id]}"):
+                os.makedirs(f"data/{self.class_dir[data_id]}")
+    
     #Вывод даных из файла на экран
     def on_enter(self):
+        self.check_dir()
         if self.count == 0:
             self.eml_queue = self.get_file_paths()
         self.eml_file_path = self.eml_queue.pop()
         self.ids.mail_text.text = f"[color=000000]{self.eml_to_text(self.eml_file_path)}[/color]"
         self.ids.autor_mail.text = f"[color=000000]Отправитель: {self.get_sender(self.eml_file_path)}[/color]"
+        
+        
         
 
 

@@ -1,0 +1,330 @@
+X-Sender: nartr@some.body
+X-Receiver: LaSuicida@our.company.name
+X-Receiver: benning@our.company.name
+X-Receiver: FrostPink@our.company.name
+X-Receiver: 1337sau@our.company.name
+X-Receiver: yAugusto@our.company.name
+X-Receiver: enix2k@our.company.name
+MIME-Version: 1.0
+From: nartr@some.body
+To: LaSuicida@our.company.name
+Cc: benning@our.company.name, FrostPink@our.company.name,
+ 1337sau@our.company.name, yAugusto@our.company.name, enix2k@our.company.name
+Date: 10 Apr 2024 18:43:19 +0300
+Subject: ARTS
+Content-Type: multipart/mixed;
+ boundary=--boundary_9601_efe433af-ec9f-4675-969a-90310d98a31c
+
+
+----boundary_9601_efe433af-ec9f-4675-969a-90310d98a31c
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+<div class=3D"fontsize fontface vmargins hmargins linespacing pag=
+esize" id=3D"document"> <div class=3D"section firstsection" id=3D=
+"SECTION_NAME651749025" style=3D"padding-top:0px;"> <div class=3D=
+"paragraph PARAGRAPH_NAME firstparagraph" id=3D"PARAGRAPH_6517490=
+25_1_424135185" style=3D"padding-top:0px;"> <div class=3D"name" i=
+temprop=3D"name"> <span class=3D"field" id=3D"651749025FNAM1"> </=
+span> <span> </span> <span class=3D"field lName" id=3D"651749025L=
+NAM1"> SOFTWARE ENGINEER</span> </div> </div> </div> <div class=3D=
+"section" id=3D"SECTION_SUMM651749028" style=3D"padding-top:0px;"=
+> <div class=3D"heading"> <div class=3D"sectiontitle" id=3D"SECTN=
+AME_SUMM651749028"> Profile</div> </div> <div class=3D"paragraph =
+firstparagraph" id=3D"PARAGRAPH_651749028_1_424151875" style=3D"p=
+adding-top:0px;"> <div class=3D"field singlecolumn" id=3D"6517490=
+28FRFM1"> <p align=3D"LEFT"> Experienced Software Engineer genera=
+list with a strong interest in Game Play, and AI programming.</p>=
+ </div> </div> </div> <div class=3D"section" id=3D"SECTION_EXPR65=
+1749031" style=3D"padding-top:0px;"> <div class=3D"heading"> <div=
+ class=3D"sectiontitle" id=3D"SECTNAME_EXPR651749031"> Profession=
+al Experience</div> </div> <div class=3D"paragraph firstparagraph=
+" id=3D"PARAGRAPH_651749031_1_424135189" itemscope=3D"" itemtype=3D=
+"https://schema.org/Organization" style=3D"padding-top:0px;"> <di=
+v class=3D"singlecolumn"> <span class=3D"paddedline"> <span class=
+=3D"jobtitle" id=3D"651749031JTIT1"> Software Engineer</span> <sp=
+an class=3D"datesWrapper"> <span class=3D"jobdates" format=3D"%m/=
+%Y" id=3D"651749031JSTD1"> 08/2010</span> <span class=3D"jobdates=
+">  to </span> <span class=3D"jobdates" format=3D"%m/%Y" id=3D"65=
+1749031EDDT1"> Current</span> </span> </span> <span class=3D"padd=
+edline" itemscope=3D"" itemtype=3D"https://schema.org/postalAddre=
+ss"> <span class=3D"companyname" id=3D"651749031COMP1" itemprop=3D=
+"name"> Company Name</span> <span class=3D"datesWrapper"> <span c=
+lass=3D"joblocation jobcity" id=3D"651749031JCIT1" itemprop=3D"ad=
+dressLocality"> City</span> <span class=3D"joblocation"> , </span=
+> <span class=3D"joblocation jobstate" id=3D"651749031JSTA1" item=
+prop=3D"addressRegion"> State</span> </span> </span> <span class=3D=
+"paddedline"> <span class=3D"jobline" id=3D"651749031JDES1" itemp=
+rop=3D"description"> <ul> <li> Star Wars: Galaxy of Heroes (IOS/A=
+ndroid, fall 2015) Worked with product managers to implement in g=
+ame telemetry Implemented various features and fixed bugs require=
+d for soft launch Unannounced Mobile Strategy Title (IOS/Android,=
+ unreleased) Established first playable prototype in Unity 3D, wi=
+th player-controlled units that utilized a navigation mesh while =
+obeying rotational and movement constraints Created custom code t=
+o drive vehicle-tread animation based on vehicle velocity Unannou=
+nced Mobile Role Playing Title (IOS/Android, Unreleased) Worked w=
+ith artists to develop player animation and movement code using U=
+nity 3Ds legacy animation and navigation mesh agent Lead the eval=
+uation and eventual adoption of Unity's Mecanim Animation System =
+to drive character animation Wrote code to support player interac=
+tion with in-world game objects Created procedural loot animation=
+ system using physics to animate loot drops Prototyped player exp=
+loration game mode with multiple control schemes and UI Dawngate =
+(PC, Open beta release) Extended the developer cheat system to al=
+low in-game cheats to be used on production servers by entitled u=
+ser accounts to facilitate QA testing and debugging of live build=
+s Worked with a team to develop AI bots from a single rough proto=
+type to a full roster of 5 bots released as part of first time us=
+er experience Developed AI behaviors, and a system that used dyna=
+mic navigation mesh obstacles allowing bots to avoid incoming ene=
+my fire and move away from fire at current location Profiled and =
+optimized server-side (Lua/C++) code to improve performance added=
+ new AI editor and in-game functionality to support game design r=
+equirements Command &amp; Conquer (PC, Limited live alpha release=
+) Enhanced and debugged (C#) server-side skirmish AI unit product=
+ion and base defense, and developed code to allow the skirmish AI=
+ Generals to use taunts against opponents Established localizatio=
+n pipeline and workflow using EA shared technology database and t=
+ools Integrated an EA shared technology UI system (C++) into the =
+Frostbite game client codebase Implemented HUD features such as o=
+bjective system, and contextual unit information display Designed=
+ and implemented (C++) client, and (C#) server code for queued pl=
+ayer command system, and commands including moving, attacking, ch=
+anging stance, and selecting units Developed code to handle assig=
+ning units and structures to control groups Refactored hotkey sys=
+tem to allow hotkeys to trigger different actions based on contex=
+t Star Wars: The Old Republic (PC, Shipped December 2011) Refacto=
+red server logging system initialization to improve log coverage =
+at startup.</li> </ul> </span> </span> </div> </div> <div class=3D=
+"paragraph" id=3D"PARAGRAPH_651749031_2_424135191" itemscope=3D""=
+ itemtype=3D"https://schema.org/Organization" style=3D"padding-to=
+p:0px;"> <div class=3D"singlecolumn"> <span class=3D"paddedline">=
+ <span class=3D"jobtitle" id=3D"651749031JTIT2"> Trion Worlds, So=
+ftware Engineer</span> <span class=3D"datesWrapper"> <span class=3D=
+"jobdates" format=3D"%m/%Y" id=3D"651749031JSTD2"> 09/2008</span>=
+ <span class=3D"jobdates">  to </span> <span class=3D"jobdates" f=
+ormat=3D"%m/%Y" id=3D"651749031EDDT2"> 08/2010</span> </span> </s=
+pan> <span class=3D"paddedline" itemscope=3D"" itemtype=3D"https:=
+//schema.org/postalAddress"> <span class=3D"companyname" id=3D"65=
+1749031COMP2" itemprop=3D"name"> </span> <span class=3D"datesWrap=
+per"> <span class=3D"joblocation jobcity" id=3D"651749031JCIT2" i=
+temprop=3D"addressLocality"> City</span> <span class=3D"joblocati=
+on"> , </span> <span class=3D"joblocation jobstate" id=3D"6517490=
+31JSTA2" itemprop=3D"addressRegion"> State</span> </span> </span>=
+ <span class=3D"paddedline"> <span class=3D"jobline" id=3D"651749=
+031JDES2" itemprop=3D"description"> <ul> <li> Rift (PC, Shipped M=
+arch 2011) Developed automated load test scenarios that included =
+report generation for historical analysis Implemented UI features=
+ for the Game Remote Administration Tool for customer service age=
+nts Platform Engineering Team Performed feature development and m=
+aintenance of platform products, including the crash service, rea=
+l-time metrics visualization system, and the data collection and =
+transformation service Designed and developed Distributed Testing=
+ Service, a client-server based system designed to run functional=
+, load, and scalability tests, and store results in a database Re=
+claimed and updated code from game team code base, and released i=
+t as part of the Trion Platform Foundation code base.</li> </ul> =
+</span> </span> </div> </div> <div class=3D"paragraph" id=3D"PARA=
+GRAPH_651749031_3_424135192" itemscope=3D"" itemtype=3D"https://s=
+chema.org/Organization" style=3D"padding-top:0px;"> <div class=3D=
+"singlecolumn"> <span class=3D"paddedline"> <span class=3D"jobtit=
+le" id=3D"651749031JTIT3"> Midway, Software Engineer</span> <span=
+ class=3D"datesWrapper"> <span class=3D"jobdates" format=3D"%m/%Y=
+" id=3D"651749031JSTD3"> 08/2006</span> <span class=3D"jobdates">=
+  to </span> <span class=3D"jobdates" format=3D"%m/%Y" id=3D"6517=
+49031EDDT3"> 08/2008</span> </span> </span> <span class=3D"padded=
+line" itemscope=3D"" itemtype=3D"https://schema.org/postalAddress=
+"> <span class=3D"companyname" id=3D"651749031COMP3" itemprop=3D"=
+name"> </span> <span class=3D"datesWrapper"> <span class=3D"joblo=
+cation jobcity" id=3D"651749031JCIT3" itemprop=3D"addressLocality=
+"> City</span> <span class=3D"joblocation"> , </span> <span class=
+=3D"joblocation jobstate" id=3D"651749031JSTA3" itemprop=3D"addre=
+ssRegion"> State</span> </span> </span> <span class=3D"paddedline=
+"> <span class=3D"jobline" id=3D"651749031JDES3" itemprop=3D"desc=
+ription"> <ul> <li> Unannounced Third Person Action Title (PS3/Xb=
+ox 360, Unreleased) Worked in an interrupt-driven environment to =
+implement features, fix bugs and create tools designed to improve=
+ the workflow for content creators during daily development, util=
+izing C++ Unreal Script, UnrealEd, and MAXScript.</li> <li> Core =
+Technology Group TNA iMPACT! (PS3/XBox 360, Shipped Sep 2008), Wh=
+eelman (PS3/XBox 360, Shipped Mar 2009), BlackSite Area 51 (PS3/X=
+Box 360, Shipped Nov 2007) Contributed to the Unreal Engine 3 bas=
+ed Core Technology Platform code used across all of Midway's next=
+ generation PC, Xbox 360, and PS3 titles by fixing bugs, performi=
+ng integrations, and reclaiming code from game development teams.=
+</li> </ul> </span> </span> </div> </div> </div> <div class=3D"se=
+ction" id=3D"SECTION_EDUC651749032" style=3D"padding-top:0px;"> <=
+div class=3D"heading"> <div class=3D"sectiontitle" id=3D"SECTNAME=
+_EDUC651749032"> Education and Training</div> </div> <div class=3D=
+"paragraph firstparagraph" id=3D"PARAGRAPH_651749032_1_424135193"=
+ itemscope=3D"" itemtype=3D"https://schema.org/EducationalOrganiz=
+ation" style=3D"padding-top:0px;"> <div class=3D"singlecolumn"> <=
+span class=3D"paddedline" itemprop=3D"description"> <span class=3D=
+"degree" id=3D"651749032DGRE1" itemprop=3D"name"> Bachelors of Sc=
+ience</span> <span> : </span> <span class=3D"programline" id=3D"6=
+51749032STUY1"> Computer Science</span> <span class=3D"datesWrapp=
+er"> <span class=3D"jobdates" id=3D"651749032GRYR1"> May 2006</sp=
+an> <span> </span> </span> </span> <span class=3D"paddedline"> <s=
+pan class=3D"companyname companyname_educ" id=3D"651749032SCHO1" =
+itemprop=3D"name"> Georgia State University</span> <span class=3D=
+"datesWrapper"> <span class=3D"joblocation jobcity educity" id=3D=
+"651749032SCIT1"> City</span> <span> , </span> <span class=3D"job=
+location jobstate edustate" id=3D"651749032SSTA1"> State</span> <=
+span class=3D"joblocation eduCountry" id=3D"651749032SCNT1"> </sp=
+an> </span> </span> <span class=3D"paddedline"> <span class=3D"fi=
+eld" id=3D"651749032FRFM1"> Computer Science</span> </span> </div=
+> </div> </div> <div class=3D"section" id=3D"SECTION_AFIL65174903=
+3" style=3D"padding-top:0px;"> </div> <div class=3D"section" id=3D=
+"SECTION_SKLL651749048" style=3D"padding-top:0px;"> <div class=3D=
+"heading"> <div class=3D"sectiontitle" id=3D"SECTNAME_SKLL6517490=
+48"> Skills</div> </div> <div class=3D"paragraph firstparagraph" =
+id=3D"PARAGRAPH_651749048_1_424135195" style=3D"padding-top:0px;"=
+> <div class=3D"field singlecolumn" id=3D"651749048FRFM1"> 3D, al=
+pha, animation, AI, C++, client-server, codebase, content, client=
+, customer service, data collection, database, debugging, editor,=
+ features, functional, game design, logging, C#, navigation, next=
+, developer, physics, QA, real-time, servers, Script, Strategy, t=
+elemetry, workflow</div> </div> </div> </div>
+----boundary_9601_efe433af-ec9f-4675-969a-90310d98a31c
+Content-Type: application/octet-stream; name=cat_138.jpg
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment
+
+/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAIBAQEBAQIBAQECAgICAgQDAgICAgUEBAME
+BgUGBgYFBgYGBwkIBgcJBwYGCAsICQoKCgoKBggLDAsKDAkKCgr/2wBDAQICAgICAgUD
+AwUKBwYHCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+CgoKCgr/wAARCABkAGQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQF
+BgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEI
+I0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNk
+ZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLD
+xMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEB
+AQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJB
+UQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZH
+SElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaan
+qKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oA
+DAMBAAIRAxEAPwD66+DX7Mnw6+EPg+10XwPoIAsndLczKrSwwfannSDfgsUDSMSjHAGe
+MAKNK18GWml+JJddaJ7iS7nma7mm+/8AvGAIU8llHlxrjGAsQwSOD6F9gUQeW8XEkm5w
+CWXJ4x7cgjHTmnrY6TbRLJMsbB2Z2AQ4OBxkYx/CKj2EUkktjgeJnKblJ3ucPP4YiFz5
+FpZJv2rKhMrR/OCT8xJ4H3OAB36k1em0q4TSJtMs7SGSR3YNJI58uL5QN/ykEEgknjHL
+ZPQHpk1PTZrqOxkiDPKWW1VyM8jexGVAzjB6cZIqzbWTyQie1XY0jsVRMA4znqMjg498
+Hqeah4e2wnWb0Zx/iH4c6H4w0uC517w/FcSWk7tbzXDKxiPlvH5h6fO0bsCFycOR0O2u
+X1T4XpP40+3Rk4Zc/Y0klxIFwPMCh8gDOMKAS0gICD5X9thtVuFQcMyjY+x+i9CWBPPA
+9PT61yOv6DcXutSLBbEr5YuHuIDtMZUlgrMDyCRtZe4bB46a8vLFXOV+82eVf8KN8JeK
+/B83w58V+HLe60+axP2yGQpLCJ/umNc8liSwDAdjjaQBXyp8c/8Aghf8FfHWrTat8NfF
+lx4QK2pVIVT7RbXM5AKEqzAxDsxU7eQQq4Ofuw2lp4KsUaG3+VHWWWSVMBmJOc+pLBjx
+nv71XuLqyFolx9rWV44vKTkHDHdsIxnnAHPPTnjkTLkUPeRVOU4S912PyQ8P/wDBEf4r
+zeLZPD3iv4taRaxROVkOn6fPczAYLA7SEUDbg/f7163q3/BN39j39mj7F4s1GC/8VatD
+cuy6b4ovFNlHzkeckKDfsQgkEbfUdM/aPjfxZJpon1G4jFvJDLMjyzsEVggDDLEF2BVg
+oG07j8oAbGfhr9vfwH8R/FvxT0fxXp1tdStdxQrc2F7K0q2+yRSYYojuDuURpiVWSQQs
+GIIlyvnVubkaR7GGlz1E5vQzfi7H4h+OOu6L4i1DVV1DTL29jttCsYIoy94ysx8nyvO8
+ooU8pAQwRgd/A3hoPEngjS/Dui3enHwTHd2GnWVk9xYvpW64jieNCju4iH72SNJIwm5k
+xCHDmRSI+a0P4u/bdWFxb/DPVdR1W90/7Ja3nmPbyW0cWIWeS4guHnjCwx7mlCHPkuAg
+5Y9Dpvx3fwfoNj4JsPB8F69kkN/M95MZryxcrbgO9us1w6KjxwhEAjYKGVIgGYN50Yxi
+ehVqSk7dD580bUdR0SCSy8CfGfV/DFj5xI0+KQOjtgASgxsBkqFB4HzK2ABgUV0Hxhn+
+BnxO8Vx+MbTT57S4ubCI6ktokdrFLcclpEieGVkUgrwSD3IYkyOVulF6tGa5+x+5o1aG
+NBFPIcTfNGqhSCPbGepzz+FIz2U9rI8jF4yBkhmGG5B6fdzkH1GBzkV+b2vf8FV/j5be
+J73xF8KPgr/bvhi2vRFcyPcbI5lWXcRDIJsbXKkB/LbKEBWIxX0D+yd/wVg/Z9/aB1uL
+4X+Pbe68A+Mnlt4rbQvE7iKK+mbagjglUbWbzW+VSFdgQFQhSa9OhmOFr1HCMlddLr9P
+1OHE5NjcLBTnB2fW2n9eh9SlpJ9QW4ht1WWNiCTwqkYG4Y7kA8j1NbVpaQW+mR7iu50x
+GwfGB/e56YwT9MCqEdhOsCT20fnDOSqyBxtPvn6d/bmte100iOK3t5sRpHtUN1VcA9ec
+12rc8uaVtB2jHOqS30Sl42icKCG2KeQdu3jv6jJGcHJqtNFFiWbyBKoUrI+cb/vM3I5P
+DcfWr81rHZp5WfJBKpGFXHlqGGF/Fsfn71Wu7NdJsEMrBYpgu47sZLqFbk+pzxmi2qM2
+c1NoEPiGzlgvYg1tHmYSEcsykgY9tpOOuOo5Ga838XXS+HtTurKI3DT3MpMUVsZJGjCw
+qQSo5BJwoHcsg7nHrD6qYbZUtgQHbeVXHBz8w9uOOOnrXnXiHw9pvi/U52k1J45YURt+
+5/kKMS4LAKAvyr8ucbgW4IFQ48ysty07O7PEvjJf6hNr1t4ngvIf+JfcxXY1O8twotgs
+hjKxDzMysxwh2gMqyyYGJCD85fFnxLpN14N1m81jRluZ7G+i+yeHrrWDLbi3ijRo4o41
+IWWSPzYVihTywhJlDM32gJ9f/GPwfaQWi3esaLPd2qr8vlacu92LFzGob5ZXZkZxFtYR
++QXBTYrj5w+Ifw0FvrHiSbRbOytr06UkM95fb3hgijaWMrECoLiJd+EiO10jRShKlWxq
+UZdDooVknqfHHxD8J6B8Odel1PxDf2n9q2Enm6dpN9BOI7STAzPJLbXK29rJhTMIY/tD
+KkqRkb12LF4d/bK8V/DnV2sPiXp2va2lrNFFHp58VxXOnTRJtfaqXlpcsFkTBYq6Z3AK
+q4JPuOiroHhrQbLwxqtxeS3VhqEmp6zr97PHYlpHl8/y/NlmjW2uGRyCZDEyb8shiWV6
++QvEeqWvj34jKknh/SLCxtHjg+yeHIZRBchOBLmX53EmM722ll2nZH90edKnBvVHr0nK
+o7I1Jvi94Y1lv7Ru/hPAJpMmU213HboTk9ESDHTAzxnGcDpRX0n8Of2bPhb4i8JWusXv
+wV1NzOu5DBqWF24HTcCfU8nvRWafaLPQ9jUi7X/IdpfjH4V+H/7Btteg1D/hFIbmzj1G
+TRZI1uI7Xepn8nzd6CTYx2E/Lu6gjIPzf+0VP8H/AIl/tBSaH8BrTxVLoFjo4t9SXxhN
+aebJexlhPLClsNscJfYFDNJIQrMWAIjT6g/aH/Z38Wfsw6o3wn+KEaHQLyeUeCNfjjcQ
+z2+6XbZyySEhLiKPccMcOFDqWKybPJvAH7M+lab4muPFkmrRyadc3DXE8zhmSQZJO45y
+AQSRkA/MAM4NfD4SdLIKleOJi1Po2t/NPzPta1CpndOlWoSUqbd2r/g1/Xc++/8Agjr8
+cPFtp4fuf2WPif4mn1K90uy/tPwne3crG4fT8wxzQNnJPkSyQ4cscrcIoH7smv0DtoIu
+QAflYAAj1FflH/wTz8RaZ4m/bo0nxn4U1lp9A0bSJtGub9Zdgvbu4KOsajHzhfIDEhto
+2qRkD5f1htZVlJcsChbCDZ93t369D7c/l97w3iMTisqhLEK0/wBOn4H51xTh8Nhc2ksP
+8LSfztqvvI7izjRwoOdgJRixwTx+hArnfH2qafZaeVubpY4lkWRCSOCSuAT/AMCXPtXS
+6jK1pG0oVc+Wcrt9cY/l+lfC/wDwUt/a1uvAfinTPht4H89dWkJnY+UHQ+ZFLGipwS77
+gCAV2g7SSfun2ar5I3PApxdSXKe03Xxd0CHUpdHh1C3ecXDK0bTBNgbnJ7j7rEf7rDsa
+qeEI11vQpZFnluTeXTXSLvUNIA2VVWQ4HRPvHoRu6kn5Fl+O3hb4O+Ex8T/j1ryWVpNK
+8sMF3cIbnUTHHiORI42OW+cnOGfMw3bSNw8Y1/8A4L367oetzWPw9+CMOpaRb3W6xufE
+GqvHO65cEssQYKWUrxvYDkYOATzQqKEveOv6u5R9w/TfxRpi3LXDXt3JbpDbidltopWU
+EpIp3CEiQnDpwh5aJduSFYfPfxQ0kabeQeG9DuI9Psvssl1d28qxW94V+T52tiAX8wRt
+GkjkyKqqq5IWWvlnwt/wcC+Kdd8SLp/xV+Bunx+HfNDImku1xcW4CBcbJHiSccMSpZAd
+xByK9Eb9oL9lb9rLRW1fw3qdxaalZmG5lt1uAmlwokYPlTW1xFJEqxs6uzywwxtKhWKd
+1BI3VaD2Zg8NUj8SPm79qvw7ZWLWEfhu1u51trlJHBsFWBri6cTRK7xCMLI4O5/LUrvb
+oCGz59+zz8P7jxl8QUk1LxArMbwqssVuqxB2cthIwp+827CohA4wACCPQPj4vifUL2az
+8WRW8kcEJltbH+0YyNPlISQuB5aov38HZLxknJy+/j/hbBbeFtFl8d6NYw3UcCiYSJKG
+LyKd2yV5d0YyQAflOc4GeteZjIz1cNz28BVhTadTVH3F4+/au+EH7KWq2/wr1h7C8uTY
+RXsrXOvRW8kZkz8rRi3YIcLuxkfezjnJK/IvxV4k1rxh4jvfE2vapc3d5eXDSXFzdztL
+LIfVnJyxxgZ9qKIxqKKXMDnFu7R/Tx8Qvg74O8feHLvwl458GWHiDRtTjeG70vUbQTJK
+rHkES8Y6fkMY7+F/Fb/glJ+x58RtCOm2nw2l04xO0tilhdywIrjedj+WwZk3PyjNjpgf
+KtfWUrExr5hATALYwBnsRz146Z7+9RuiIqqrM2cnkDoff9P88+rUoUavxxueHSxmIw/w
+Sa+Z8ifsnfsAWfwO8QWsU6xrpenXQvNLtAwX7FMieWpTaeSYywZ2JY72Gdp2j6pvNf0+
+0uYdMimVmVwXKt1PB/E8k/rWd4iubqZpFsg6sqBEGQBkdeR/nNcxNaXWnWj39xMrM8gV
+TvySv4+p6fUdMVlCnDDLlgvX/hzorVauOkqlV/JG94+8VRabpMoFwI53tWaIE43Z4H55
+6fr3r8tPE0dx+0L/AMFCtYutb8RQrbaHzYcExyMsHVQeFOQuSTwQWyOo+wv2gvE/iHT7
+bUvE3hyWeV7ewK/ZCxLDaANwAGW5Pzf7K9PX4P8A2ZfiNN41/bEkbVbKSX+3rOeC8jRQ
+Ar+UVXGQRnEmTuGD8oORwMliHVxKp2t/WhrHDeyw8qiZ8r/tg/EvXv2gf2pdU0W7vRDp
+VhrVza6XaxSKY4IfNYuw4VS57kAZI79Tn/Gixi+Dfguz+Hmn+GvDmoWXiDQJY/7TutAi
+e8t5TfWcs0sN15Sv5qyab5Cv5kirDPchBH9qm3dHefsZfGv4j/GPxLp3wtsDrl3Ya1Oy
+3BVVW7cSHcUZP3ZGW6Agc5wBxXu/gT4X/BXxX8Mx4B/bU8EeJPhvqukl2h1DxDo91Hb3
+YHlqVjnkiwGDIFKKXcBwTwrKvbgYQq0akZu0n1Zli5zo1ISirxXRfmfJX7Knw3T4n/Ff
+T/Duo+Ep9Y0xplGq28St8kB437x8seGK4ZyF7d8H7N8B/wDBMHzf2w/Enw0+G/xBvdN0
+fQNG0q8up7Kxe4ntZbuI5hZmdVyCqynDMPLdCCcgjvfgD+zD8KPBV3YRfsg/BHxR8QPF
+dxAz2PiTxDpN5pHhqzTyFVbi5uZkV7lFcGQx2uXYy+WGRdrN9r/Aj4Fv+yH8Ide8TfET
+X7jxb471+8n1bxdrksAafVLwW+EEFvDzFCigQpBEpKJGQinjN1KNBUY0t2rtv9LmUK9b
+28qzVk1ZRfXza6H5Vft3fBn4n/ATxBNp/ju2n1mW9aUJ4luYlPm7syBQRwkhzjLgEhBs
+JIYV4RpXxFi0n4c3ljcRmTzzgR3TLNsJBw2WBJPPHSvdf+Cnvx613xz49udK1TXZMxST
+2KaCdXlulsjGybZWEjIwmdFzu2MuJGG1G6fKx1fQhpBtryxkZCp3CM7WLcc5weB17c+t
+ebNRUrI7qfNKCct2ctIQ0jMO57DFFISCSVGBngZorFm5/V3EJiV87O8AllLdecDg/T/9
+WalkgmWMzuRvAAOQBgenPb/IrPgvhLMsSSMdwYeWQSC3TBz9PwrRv/OfSWhjWMS+ScbM
+AZ/z7cfhXsHz+raPFPG/xit7PxNLo2nEPLDKVmy3CAL0OOp7/lWHqvxI0u/aKC7hZioW
+VtkmSoB3BiDkDtzjk889vKPip8TvB3wt8ZXHgX4jeE9UtbvWZ3ax1pi6wNI7N8hdclXJ
+Hy5IDYxyWAqTwRd6dNdtLDryyReV5klvOcMeeADjkZHPc+o6V8/7TF1pvlaeu3b5M+5p
+5Ivqca0Yu1lr39LGB+0j8VNN+HvgTxH4hneaSWW1ZC3K7ZclFOCwJBGA2OcdMAjPwh8D
+Zbe0/ah03UtPKyi/YzR4fJh8xkyz8s3yqr5CqzMBjClga9x/4KG/GGO98I3dkXRV8pxv
+jSRW+8DjJOGyB3H/ANb5O/Zo17xH4++LWheH9A1Ax399vjkZnMgSIJgKVz0xuBHAP8We
+ta4KUpYpJ9GcWZ4KpgcPaas5K5+wv7PngnRrhtKu4LN4Y5tNj8yGWWSRUblzhpP3hJZw
+csc8djivoSxW0tdi3kkZVYw0/mAdSdoBx36Y/L3r5+8PeLvDHw10KG91TX0jggt4kYyX
+Me1cAbVIYl8D5gc/NjGAduK5r4o/tw/Dbwx4Onu5tVvb6JLZJ2/s2za4X5m2xFXG1HYs
+C+A27Ebsy7VJr6DEThB2PkIRnUR7v49+NfgTwPp0t/qWuRWSRKrCU3CDbliAdrE8FvlB
+CnJIxyRX5w/8FIf+Cp/wx8U+GL/4aeEV1abUrOdWe5gu7y0mF0sgDgOAixgRmRT8pHzK
+Nm4ZTwz9tP8Abw8P/FfUp/D/AIe8aX2mafbRKyx2OnI7Xc6tvG/aka7QSAMO69eGAUn4
+v1bUrrVr2WeW6lKyytJieXccnuTjk15lXESekT1MPhFHWZP4r8V3finVpb97f7NbyTtN
+HZRTO0cTMAGK7iTk4BJzyfwxlTSll2bsjOeaVgUDFfmx1x9aiySSSe9cp3hRRRQB/UNp
+Pif7TN5t6EcGENE9vk7lbkNjnp174roY/E1mluY1ufmkXJSXaCo47Hn2/KvjD9nz9rjw
+78afCja74Cli1KexkX7cthMyvbhpC6qInBkYM2QjSAE5+bjNaniz9r/T9Ht7my1TStej
+YOFBudAlYKC5AcSIWAztIAO3oCRjca71iqfJzM8xYKtOVoo9F/bIn8Ez+AJfFOt2iXMe
+mh5rgiEOEUKQWbaOmcZPYA5xX556/wDtAfHHxTZy6X8CvDTatrurasbbQ4IoGOdvAbaC
+MgZckkgDac8VY/aS/bdF+2paF4BTV13MzbLi2lOYkRwUZHwVXeW64JDAn5QEr3X/AIJy
+fHbwXovwc0fTvBnhC3uJ4LCJNXu44k+1eaz/ADqSPmDM7SSYP8KEgfdz5VSKxOKunyr8
+z7TL8wrZPlUocvNJ7a2t/TPGL3/gjz+3f8V/Djat8e/2i9A0/wC2RrLPZC2E7W4I3FSU
+WJAQMggEjjrzWB8Gv2HtE+C3xe0ZrbxVJq1ul1JbPq8IMRj/AHkaK/VhuLOp2gE4OMjB
+avsv4+ftSXeoJqXhvw/Z6mtzBpc8qeYskMKQqVQTuUDFUUhwfmXvuyCKp/BLwn448L/C
+uLV/EfjSO90+2s4C0dhpMS7X583CjlY0G07VUNhD+PsYehQpy9xa9z4/G43HYp3rS8v6
+ep8v/tj65468NeLbHRW8WH7GyM066pcRQLaSqWyx37mdWUDDYCjK4zwR8Q+N/jt4x0fV
+rxNL8Y6mZ5rYwpLZ38lslrmQOWiVAAqsAgK9MrkjIGPsL/gox4++IWqXVzpT/AmO81C+
+0uW5ur6xtBqEMNukMhuHGQwi8kWFydyhPKjspS2FD7fi7xRPqHirTvE/jlfhp4X1BtRj
+e6Op+HrVoU8P29vPbxtOtlZPEtpC5lii8y7gKyGb5Dv+YYYlpzdh4RWpq5wss1xfyPcz
+RhpmYFnUEsxx1Izg+tUZ5FRykbHg4O4c1saje+DL8jyI9X05YdEB2tJFfG8v1Q5wcQCC
+FyAB/rGjzyXxVK78N3SeZNpN7bapDGXLT6czE7UiSWRzE6rKiKH2mRkCFkcKzbSa5bOx
+23RnZOcg9QR/Sj5QOBj2oBzRSGFFFFAHvn7E3xx+IXw1+Pvhaw8N39uIbnUILRVms0LQ
+CclXeNlAZXIkIJyQwVAwYRoF/aPwV4in8Y/DOw8X6vp9oLi6BeaKKHEROFJG0kkgliTk
+9eaKK3w20kY1tK0bHO/F3wN4P1S0m+0eG7JWutMUSSpbKJBkxg7XxuXIY9D6egr44/aS
+0GH9nPULrxV8Kb6fT7yMMzMuwJIBPDCEZFULtwc4AHOOyqAUVlWSV36HpUW3RsxvwU+N
+nxK1DU73xze+IjNeQeFprsJNCjxySuqDLhgS+3JK5PBJ9TXZ/ttfEDxTcfAiz+J2n6rP
+puqa9c6ZHenTbmWJE8+1u5neMbiUcfZkRXByEZlzyCCitqcpPD7nkVox+tLT+tD4k1L4
+mfEjw+njKGXxzqGp21r4qi8MSWOrslxBcWN39tmk3oy4WRZdMs5EaPZseJWAyq7aP7SP
+hPSdY8B678Yb0SN4ig1fwG9xqQfD3w8Q+FLvU7oXH/PV4rixXy5z+/k+0Ttcy3MjLIhR
+Ux1TNkkpq39bHmVrrl58ULHWrrxuq3urWtlPqjeIZGY311KbiR5ftEhOLkySXTO8soeb
+91EokVFKNxYxMhSRQQwwR60UVD2Rceps2ynxJaavqeqyM91Z2Ju/tWf3lxI93CjGUnO/
+/XOc/eJxkkDFZI5APqKKKT2GgoooqRn/2Q==
+----boundary_9601_efe433af-ec9f-4675-969a-90310d98a31c--
+

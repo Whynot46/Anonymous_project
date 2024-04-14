@@ -60,6 +60,7 @@ class Main_Screen(Screen):
     count = 0
     leaked_file = False
     
+
     #Функция для обновления списка
     def update_list(self):
         self.ids.container.clear_widgets()
@@ -88,6 +89,8 @@ class Main_Screen(Screen):
                 self.ids.container.add_widget(
                     List_Item(mail_number,text)
                 )
+
+
     #Функция отображения объектов в списке
     def on_enter(self):
         direct_way = filedialog.askdirectory()
@@ -127,7 +130,8 @@ class Main_Screen(Screen):
                 )
                 
         self.ids.count_mail.text = str(self.count)
-    
+
+
     #Переключение флагов с помощью checkbox
     def on_checkbox_active(self, checkbox, value, id):
         if value:
@@ -162,6 +166,7 @@ class Main_Screen(Screen):
                 self.Not_detected_flag = False
         self.update_list()
         
+
     def get_sender(self,eml_file_path):
         with open(eml_file_path, 'rb') as eml_file:
             eml_msg = eml_file.read()
@@ -302,6 +307,7 @@ class Main_Screen(Screen):
 
         return text
     
+
     # Обработка внешних файлов
     def process_temp_file(self, filepath, part):
         filename = os.path.basename(filepath)
@@ -320,8 +326,6 @@ class Main_Screen(Screen):
                 self.check_str_filter(self.convert_pdf_to_txt_file(filepath), filename)
 
         elif filename.lower().endswith('.txt'):
-            print(filename)
-
             if part:
                 text = part.get_payload(decode=True).decode('utf-16')
                 self.check_str_filter(text, filename)
@@ -329,6 +333,7 @@ class Main_Screen(Screen):
                 with open(filepath, 'r', encoding='utf-16') as txt_file:
                     text = txt_file.read()
                     self.check_str_filter(text, filename)
+
 
     # Функция для сохранения PDF-файла из письма и возврата его пути
     def save_pdf(self,pdf_part):
@@ -363,5 +368,4 @@ class Main_Screen(Screen):
         if self.leaked_file:
             Main_Screen.count += 1  # Incrementing class variable
 
-        return '', '', ''
         
