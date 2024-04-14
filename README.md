@@ -94,11 +94,11 @@ pip3 install -r requirements.txt
 For Windows:
 
 ```
-py main.py
+py EmailDataDetector/main.py
 ```
 For Linux:
 ```
-python3 main.py
+python3 EmailDataDetector/main.py
 ```
 
 ## Разработчики
