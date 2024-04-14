@@ -93,13 +93,14 @@ class Main_Screen(Screen):
 
     #Функция отображения объектов в списке
     def on_enter(self):
-        direct_way = filedialog.askdirectory()
-        self.dataset_dir = Path(direct_way)
-        files = self.get_dataset_files(self.dataset_dir)
-
-        for file in files:
-            self.leaked_file = False
-            self.check_str_filter(self.eml_to_text(file), file)
+        self.ids.container.clear_widgets() 
+        direct_way = filedialog.askdirectory() 
+        self.dataset_dir = Path(direct_way) 
+        files = self.get_dataset_files(self.dataset_dir) 
+ 
+        for file in files: 
+            self.leaked_file = False 
+            self.check_str_filter(self.eml_to_text(file), file) 
             self.process_email(file)
 
         for i in range(len(self.processed_data)):

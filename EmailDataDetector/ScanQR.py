@@ -1,37 +1,47 @@
-import cv2
+import fitz
 from pyzbar.pyzbar import decode
-import os.path
-from pdf2image import convert_from_path
+from PIL import Image, ImageChops
+import io
+import os
 
-def extract_images_from_pdf(pdf_path):
-    images = []
-    pages = convert_from_path(pdf_path)
-    for page_num, img in enumerate(pages):
-        image_path = f"page{page_num}.png"
-        img.save(image_path, 'PNG')
-        images.append(image_path)
-    return images
+def extract_qr_images_from_pdf(pdf_path):
+    qr_images = []
 
-def scan_qr_codes(images):
-    qr_codes = []
-    for image_path in images:
-        img = cv2.imread(image_path)
-        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-        qr_codes_data = decode(gray)
-        for qr_code_data in qr_codes_data:
-            qr_data = qr_code_data.data.decode("utf-8")
-            qr_codes.append(qr_data)
-    return qr_codes
+    # Открываем PDF
+    pdf_document = fitz.open(pdf_path)
 
-def process_pdf(pdf_file_path):
-    temp_images = extract_images_from_pdf(pdf_file_path)
-    qr_codes = scan_qr_codes(temp_images)
+    for page_number in range(len(pdf_document)):
+        # Получаем страницу
+        page = pdf_document.load_page(page_number)
+        # Получаем изображения на странице
+        images = page.get_images(full=True)
 
-    if not qr_codes:
-        print("В", pdf_file_path,"нет QR-кодов")
-    else:
-        print("В", pdf_file_path,"присутствует QR-код")
+        for img_index, img_info in enumerate(images):
+            # Получаем изображение
+            xref = img_info[0]
+            base_image = pdf_document.extract_image(xref)
+            image_bytes = base_image["image"]
+            # Конвертируем в объект изображения Pillow
+            image = Image.open(io.BytesIO(image_bytes))
+            # Инвертируем изображение
+            inverted_image = ImageChops.invert(image)
+            # Сохраняем изображение временно
+            image_path = f"./EmailDataDetector/temp_image_{page_number}_{img_index}.png"
+            inverted_image.save(image_path)
+            qr_images.append(image_path)
 
-    # Удаляем временные изображения
-    for image_path in temp_images:
+    return qr_images
+
+def detect_qr_codes(qr_images):
+    for image_path in qr_images:
+        # Загружаем изображение и декодируем QR-код
+        decoded_objects = decode(Image.open(image_path))
+        print(decoded_objects)
+        if decoded_objects:
+            print("QR code detected:", decoded_objects[0].data.decode())
+        else:
+            print("QR code not detected")
+        
+        # Удаление временного файла изображения
         os.remove(image_path)
+        

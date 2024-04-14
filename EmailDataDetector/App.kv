@@ -143,6 +143,22 @@
                                         halign:"center"
                                         font_style: "Headline"
                                         role: "small"
+                        Filter_block:
+                            BoxLayout:
+                                orientation:'vertical'
+                                MDLabel:
+                                    text:"Выбор новый папки:"
+                                    halign:"center"
+                                Filter_block:
+                                    FloatLayout:
+                                        MDButton:
+                                            style: "elevated"
+                                            pos_hint: {'center_x': .5, 'center_y': .5}
+                                            on_release:
+                                                root.on_enter()
+                                            MDButtonText:
+                                                text: "Выбор"
+
 
                 
             
