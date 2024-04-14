@@ -20,6 +20,10 @@
 Нами было разработано <b>desktop-приложение</b> для анализа локального почтового ящика в режиме offline. Алгоритм поиска, основанный на регулярных выражениях и компьютерном зрении, определяет наличие конфиденциальных данных в письме и при их наличии сигнализирует об этом пользователю. Также был реализован фильтр сообщений по классу данных и счётчик писем с утечкой данных.
 <br>
 <img src="https://github.com/Whynot46/Anonymous_project/blob/main/img/data_detector_example.PNG" alt="data_detector_example">
+При нажатии на письмо, файл открывается в Microcoft Outlook.
+<br>
+<img src="https://github.com/Whynot46/Anonymous_project/blob/main/img/data_detector_outlook_example.PNG" alt="data_detector_outlook_example">
+<br>
 Но, дабы вовсе не отказываться от нейросетевого метода решения данной задачи, мы также создали удобное <b>desktop-приложения</b> для разметки писем формата .eml. Пользователь запускает приложение, выбирает папку с .eml файлами и начинает сортировать их, путём нажатия на кнопки соответсвуюшего класса данных. Размеченные данные сохраняются в папке с названием соответсвующего класса в формате .txt.
 </p>
 <img src="https://github.com/Whynot46/Anonymous_project/blob/main/img/markup_example.PNG" alt="markup_example">
